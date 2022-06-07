@@ -1,0 +1,18 @@
+# https://taskfile.dev
+
+version: '3'
+
+silent: true
+
+tasks:
+  build:
+    desc: Build the binary
+    cmds:
+      - go build
+
+  serve:
+    desc: Run the binary
+    cmds:
+      - ./serve-api{{ .EXTENSION }}
+    vars:
+      EXTENSION: '{{ if eq OS "windows" }}.exe{{ end }}'
