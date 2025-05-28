@@ -5,7 +5,7 @@ go 1.21.0
 toolchain go1.24.3
 
 require (
-	github.com/spf13/cobra v1.8.1
+	github.com/spf13/cobra v1.9.1
 	github.com/spf13/viper v1.20.1
 	gorm.io/driver/sqlite v1.5.6
 	gorm.io/gorm v1.30.0
