@@ -2,7 +2,7 @@ module github.com/thetillhoff/serve-api
 
 go 1.21.0
 
-toolchain go1.24.3
+toolchain go1.24.5
 
 require (
 	github.com/spf13/cobra v1.8.1
